@@ -94,8 +94,14 @@ namespace Szovegiro
         if (res == MessageBoxResult.Yes)
           Mentés();
       }
+      // Ha még nincs mentett állomány, nincs mit megnyitni
+      if (!File.Exists(ÁllományNév))
+      {
+        MessageBox.Show("Az állomány nem található: " + ÁllományNév);
+        return;
+      }
       // Beolvasást végző objektum létrehozása
-      StreamReader sr = new StreamReader("valami.txt");
+      StreamReader sr = new StreamReader(ÁllományNév);
       // Az állomány teljes tartalmának beolvasása
       tbSzöveg.Text = sr.ReadToEnd();
       // Állomány lezárása
