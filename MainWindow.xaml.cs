@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-namespace Szovegiro
+namespace WPF_FileIO_Szovegiro
 {
 	/// <summary>
 	/// Egyszerű szövegíró program menüvel és nyomógombokat tartalmazó eszköztárral.

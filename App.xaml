@@ -1,7 +1,7 @@
-﻿<Application x:Class="Szovegiro.App"
+﻿<Application x:Class="WPF_FileIO_Szovegiro.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Szovegiro"
+             xmlns:local="clr-namespace:WPF_FileIO_Szovegiro"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
